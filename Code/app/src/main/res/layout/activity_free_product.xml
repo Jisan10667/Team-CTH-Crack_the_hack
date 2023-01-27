@@ -4,6 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/b23"
     tools:context=".FreeProduct">
+
+    <Button
+        android:id="@+id/free_give"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#1F1347"
+        android:text="Give For Free"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <Button
+        android:id="@+id/Free_take"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#1F1347"
+        android:text="Free Products"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
